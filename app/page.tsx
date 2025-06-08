@@ -14,6 +14,7 @@ import {
   Brain,
   BarChart3,
   Layers,
+  Youtube,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -353,6 +354,15 @@ export default function Portfolio() {
                 >
                   <Linkedin className="w-4 h-4 mr-2" />
                   LinkedIn
+                </Button>
+              </a>
+              <a href="https://www.youtube.com/@frankind-eth">
+                <Button
+                  variant="outline"
+                  className="border-[#6B7280] text-[#6B7280] hover:bg-[#6B7280] hover:text-white"
+                >
+                  <Youtube className="w-4 h-4 mr-2" />
+                  YouTube
                 </Button>
               </a>
             </div>
@@ -1591,6 +1601,15 @@ export default function Portfolio() {
                     <Github className="w-6 h-6 text-[#9CA3AF]" />
                     <span className="text-white font-lora">
                       github.com/FrancoAguzzi
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@frankind-eth"
+                    className="flex items-center gap-4"
+                  >
+                    <Youtube className="w-6 h-6 text-[#9CA3AF]" />
+                    <span className="text-white font-lora">
+                      youtube.com/@frankind-eth
                     </span>
                   </a>
                 </div>
