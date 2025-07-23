@@ -1314,6 +1314,15 @@ export default function Portfolio() {
                 image: "/namehash-labs.png",
               },
               {
+                title: "NameGraph",
+                description:
+                  "Typescript engineer of AI/ML project that revolutionizes name exploration and discovery. Integrated 3D visualizations and AI-powered recommendations—making it easy to discover, collect, and fall in love with names across the decentralized web.",
+                tech: ["Typescript", "AI/ML", "Web3"],
+                color: "from-[#B721FF] to-[#21D4FD]",
+                url: "https://www.namegraph.dev/name/moon?tld=suffix_.eth",
+                image: "/namegraph.png",
+              },
+              {
                 title: "Cerave [New York | United States]",
                 description:
                   "Built the Cerave US website from scratch, achieving 75% unit test coverage and full WCAG 2.0 accessibility. Implemented robust web components and data-layer comms, collaborating in diverse Scrum teams using Vue.js, Jest, and modern web tech.",
