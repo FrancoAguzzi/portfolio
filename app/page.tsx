@@ -298,9 +298,10 @@ export default function Portfolio() {
                   Summary
                 </h3>
                 <p className="text-lg mb-6 font-lora text-[#000000]/80">
-                  Senior Product Engineer with 5+ years of experience designing
-                  and delivering high-impact, market-leading digital products.
-                  Specialized in AI/ML integration, data-driven growth
+                  Senior Product Engineer who worked for the number 1 beauty
+                  brand in the world and for unicord startup, with experience
+                  designing and delivering high-impact, market-leading digital
+                  products. Specialized in AI/ML integration, data-driven growth
                   strategies, and software architecture for scalable solutions.
                 </p>
                 <p className="text-lg mb-6 font-lora text-[#000000]/80">
@@ -1126,8 +1127,23 @@ export default function Portfolio() {
                   <p className="text-[#000000]/80 font-lora">
                     Federal University of Saint Catherine
                   </p>
-                  <p className="text-[#000000]/60 font-lora">
-                    Jan 2019 — Dec 2022 • Florianópolis
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  viewport={{ once: true }}
+                  className="bg-gradient-to-br from-[#6B7280]/10 to-[#6B7280]/5 p-6 rounded-lg"
+                >
+                  <h4 className="text-xl font-bold text-black mb-2 font-montserrat">
+                    Professional Certification
+                  </h4>
+                  <p className="text-lg text-[#6B7280] font-semibold mb-2 font-montserrat">
+                    AI Architect and Strategist for Businesses
+                  </p>
+                  <p className="text-[#000000]/80 font-lora">
+                    Specialized certification in AI strategy and implementation
                   </p>
                 </motion.div>
 
@@ -1142,10 +1158,26 @@ export default function Portfolio() {
                     Professional Certification
                   </h4>
                   <p className="text-lg text-[#6B7280] font-semibold mb-2 font-montserrat">
-                    AI Strategist for Businesses
+                    Software Architect
+                  </p>
+                  <p className="text-[#000000]/80 font-lora">PUC-RIO</p>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  viewport={{ once: true }}
+                  className="bg-gradient-to-br from-[#6B7280]/10 to-[#6B7280]/5 p-6 rounded-lg"
+                >
+                  <h4 className="text-xl font-bold text-black mb-2 font-montserrat">
+                    Technologist
+                  </h4>
+                  <p className="text-lg text-[#6B7280] font-semibold mb-2 font-montserrat">
+                    Artificial Intelligence
                   </p>
                   <p className="text-[#000000]/80 font-lora">
-                    Specialized certification in AI strategy and implementation
+                    Cruzeiro do Sul University
                   </p>
                 </motion.div>
               </div>
