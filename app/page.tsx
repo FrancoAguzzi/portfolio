@@ -405,14 +405,14 @@ export default function Portfolio() {
                             Hackathon Champion
                           </h3>
                           <p className="text-[#6B7280] font-montserrat text-sm">
-                            4x Winner
+                            5x Winner
                           </p>
                         </div>
                       </div>
                       <p className="text-[#000000]/80 font-lora">
-                        Winner of both national and global Ethereum hackathon
-                        prizes, demonstrating exceptional innovation in Web3
-                        development
+                        Winner of both national and global Ethereum and Web3
+                        hackathon prizes, demonstrating exceptional innovation
+                        in Web3 development
                       </p>
                     </motion.div>
 
