@@ -1337,6 +1337,15 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "Tiny GraphQL",
+                description:
+                  "Creator of Tiny GraphQL, a GraphQL package that provides a simple solution for development teams to have cleaner and cheaper GraphQL applications. This original idea has the goal of helping organizations cut costs while DevEX and UX are improved. Clean code is also a cost decision.",
+                tech: ["GraphQL", "Costs Optimization", "DevOps"],
+                color: "from-[#E535AB] to-[#FFFFFF]",
+                url: "https://tinygraphql.com/",
+                image: "/tiny-graphql.png",
+              },
+              {
                 title: "NameHash",
                 description:
                   "Fullstack engineer for an innovative NFT marketplace integrating AI/ML, blockchain, and advanced 3D web technologies. Built interactive UI, 3D CSS animations, dynamic OpenGraph images, TRPC APIs, smart contract oracles, and crypto payment flows—delivering a seamless, step-by-step Web3 UX for domain registration.",
